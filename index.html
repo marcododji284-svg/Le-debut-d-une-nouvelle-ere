@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le début d'une nouvelle ère</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<div class="container">
+
+    <div id="intro">
+        <h1>Le début d'une nouvelle ère</h1>
+
+        <p>
+            Une rencontre.<br>
+            Une voix.<br>
+            Une histoire qui commence.
+        </p>
+
+        <button onclick="commencer()">
+            Commencer l'histoire
+        </button>
+    </div>
+
+
+    <div id="story" class="hidden">
+
+        <h2 id="title"></h2>
+
+        <p id="text"></p>
+
+        <div class="buttons">
+            <button onclick="precedent()">
+                ← Précédent
+            </button>
+
+            <button onclick="suivant()">
+                Suivant →
+            </button>
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+  </html>
